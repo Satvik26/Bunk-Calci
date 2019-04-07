@@ -1,0 +1,47 @@
+page-home {
+
+  .bg {
+
+       background-image: url('../assets/icon/ocean.JPG');
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover ;
+     // filter: blur(1px);
+    
+  }
+
+  //.b {
+  //     position : absolute;
+   //    top: 45px;
+   //    right: cover;
+
+
+ // }
+  
+.bt:hover
+{
+	background-color:#000000;
+	border:solid 1px thin #33F;
+	color:transparent;
+	transition:ease-in 0.4s;
+	transition:ease-out 0.4s;
+	cursor:not-allowed;
+    border-radius: 30%;
+     border: 5px;
+}
+.in {
+      font-family:'Roboto-Light'; 
+      font-size:20px;
+     background-size:cover;
+   
+}
+.n{
+font-family:'Roboto-Light'; 
+      font-size:20px;
+    position:absolute ;
+}
+.alertCustomCss{
+   background-color: gray;
+    color: cornflowerblue;
+}
+}
